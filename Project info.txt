@@ -1,0 +1,43 @@
+Hey guys. I'm gonna outline what some of the classes are in this document. 
+there are a lot of classes, I'll go over em again for sure. Most are from codenmore tutorial
+
+the res package contains all of our sprites for characters and maps. Subpackages are levels and textures
+
+source packages are gonna contain all of our code 
+
+the entities subpackaege contains code for our creatures, which will be players and eventually enemies.
+the player extends creature, and creature contains most of our boundchecking. Check tutorial for clarification,
+bounds checking is hard to explain but is fully functional so far. 
+
+Our level class is how we load our levels onto the screen. The render function renders to screen, and the loadLEvel
+function sets the path to find the level. 
+
+the states class is how we set up menus and such. We are currently using gamestate for everything, but will
+implement menu in the near future.
+
+the tile class is what we are going to use for map making. We can update this in the future when we want
+more detailed tiles 
+
+utils are things that help the game run smoothly. Animation is how we set up the walking, falling, and jumping
+animations. The gamecamera class is how we keep the player centered. The handler is used to access all other
+functions.
+
+
+the softengproject subpackage contains all the classes we need to physically print out game windows. Don't worry 
+too much about the display, screen and loader classes. these aren't really going to be modifed in the future.
+the assets class is how we load different sprite animations to the player. this class is linked to the animation class,
+don't ask me how, it'll be clear in the future. 
+
+the game class in this subpackage is where everything gets initialized. this class contains the psv main 
+function. there is a lot of code here that initialized screens and windows which is not very important
+for out current reasons. 
+
+
+
+
+
+this is a lot of info. You might seem overwhelmed. it's all good, we got hella time. 
+
+
+
+- Irvin 
